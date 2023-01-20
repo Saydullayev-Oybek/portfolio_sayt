@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__brand">
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item ">
+                        <a href="index.html">Asosiy</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Mijozlar</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="main-navigation__item active">
+                        <a href="./contact.html">Bog'lanish</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /header section -->
+
+    <!-- contact -->
+    <div class="container">
+        <section class="contact">
+            <div class="section-title">
+                Men bilan bog'laning
+            </div>
+            <form action="/server.php" method="GET">
+                <textarea rows="10" placeholder="Xabaringizni kiriting"></textarea>
+                <div class="half-flex">
+                    <div class="half-row contact__firstname">
+                        <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+                    </div>
+                    <div class="half-row  contact__email">
+                        <input type="email" name="email" placeholder="emailingizni kiriting">
+                    </div>
+                </div>
+                <input type="text" placeholder="Qisqacha mazmuni" name="subject">
+                <button class="buttom contact__send" type="submit">Xabar jo'natish</button>
+            </form>
+        </section>
+    </div>
+    <!-- /contact -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">
+                breed
+            </div>
+            <div class="footer-navigation">
+                <a href="#">
+                    <li class="footer-navigation__item">home</li>
+                </a>
+                <li class="footer-navigation__item">about</li>
+                <li class="footer-navigation__item">portfolio</li>
+                <li class="footer-navigation__item">blog</li>
+                <li class="footer-navigation__item">services</li>
+            </div>
+            <div class="footer-network__items">
+                <i class="fa-brands fa-telegram footer-network__item"></i>
+                <i class="fa-brands fa-instagram footer-network__item"></i>
+                <i class="fa-brands fa-facebook footer-network__item"></i>
+                <i class="fa-brands fa-twitter footer-network__item"></i>
+            </div>
+            <div class="template-creater">
+                Copyright ©2023 All rights reserved | This template is made with by <span class="oybek">oybek</span>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+    <script src="./script.js">
+    </script>
+
+</body>
+
+</html>
